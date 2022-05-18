@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<div>
+    <div class="nav">
+        <div class="logo"><img src="img/logo.svg" alt=""></div>
+        <div class="nav-menu">
+            <div class="nav-link">
+                <a href="#">БАНК</a>
+            </div>
+            <div class="nav-link">
+                <span>БИЗНЕС</span>
+            </div>
+            <div class="nav-link">
+                <span>ИНВЕСТИЦИИ</span>
+            </div>
+            <div class="nav-link">
+                <span>СТРАХОВАНИЕ</span>
+            </div>
+            <div class="nav-link">
+                <span>МОБАЙЛ</span>
+            </div>
+            <div class="nav-link">
+                <span>ПУТЕШЕСТВИЯ</span>
+            </div>
+            <div class="nav-link">
+                <span>РАЗВЛЕЧЕНИЯ</span>
+            </div>
+        </div>
+        <div class="voit">
+            ВОЙТИ
+        </div>
+    </div>
+    <div class="valyuta-converter">
+        <div>
+            <div class="title">
+                <p>Конвертер валют онлайн</p>
+            </div>
+            <form>
+                <div class="container">
+                    <div class="left">
+                        <div class="info">
+                            <p>У меня есть </p>
+                        </div>
+                        <div class="valyuta-names">
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-left" id="RUB" value="RUB" checked>
+                                <label for="RUB">RUB</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-left" id="USD" value="USD">
+                                <label for="USD">USD</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-left" value="EUR" id="EUR">
+                                <label for="EUR">EUR</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-left" value="GBP" id="GBP">
+                                <label for="GBP">GBP</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-left" value="AZN" id="AZN">
+                                <label for="AZN">AZN</label>
+                            </div>
+
+                        </div>
+                        <div class="valyuta-val">
+                            <input type="text" name="from" id="val-left">
+                            <p class="left-text">1 RUB = 0.0129 USD</p>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <div class="info">
+                            <p>Хочу приобрести</p>
+                        </div>
+                        <div class="valyuta-names">
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-right" id="RUB-right" value="RUB">
+                                <label for="RUB-right">RUB</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-right" id="USD-right" value="USD" checked>
+                                <label for="USD-right">USD</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-right" id="EUR-right" value="EUR">
+                                <label for="EUR-right">EUR</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-right" id="GBP-right" value="GBP">
+                                <label for="GBP-right">GBP</label>
+                            </div>
+                            <div class="valyuta-name">
+
+                                <input type="radio" name="value-right" value="AZN" id="AZN-right">
+                                <label for="AZN-right">AZN</label>
+                            </div>
+
+                        </div>
+                        <div class="valyuta-val widtg">
+                            <input type="text" name="to" id="val-right">
+                            <p class="right-text">1 USD = 77.3268 RUB</p>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
+
+<script src="https://unpkg.com/imask"></script>
+<script src="script.js"></script>
+</body>
+
+</html>
